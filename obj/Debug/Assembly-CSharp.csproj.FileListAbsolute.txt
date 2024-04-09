@@ -1,0 +1,2 @@
+E:\Sheridan\2020\Racer\Racer\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+E:\Sheridan\2020\Racer\Racer\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
