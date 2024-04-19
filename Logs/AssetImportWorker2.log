@@ -1,0 +1,960 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32467 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/chenyufe/Documents/Rekordny_Github/RacerGame
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54047
+Successfully changed project path to: C:/Users/chenyufe/Documents/Rekordny_Github/RacerGame
+C:/Users/chenyufe/Documents/Rekordny_Github/RacerGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5152] Host "[IP] 142.55.42.89 [Port] 0 [Flags] 2 [Guid] 1689774122 [EditorId] 1689774122 [Version] 1048832 [Id] WindowsEditor(7,oa-s142-23) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5152] Host "[IP] 142.55.42.89 [Port] 0 [Flags] 2 [Guid] 1689774122 [EditorId] 1689774122 [Version] 1048832 [Id] WindowsEditor(7,oa-s142-23) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 8.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/chenyufe/Documents/Rekordny_Github/RacerGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   NVIDIA
+    VRAM:     11120 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019931 seconds.
+- Loaded All Assemblies, in  0.615 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 978 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.462 seconds
+Domain Reload Profiling: 2074ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (250ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (223ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1463ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1380ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1166ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.810 seconds
+Refreshing native plugins compatible for Editor in 4.57 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.906 seconds
+Domain Reload Profiling: 1712ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (418ms)
+		LoadAssemblies (397ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (126ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (907ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (634ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (457ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 5.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1574 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (129.7 KB). Loaded Objects now: 2045.
+Memory consumption went from 91.5 MB to 91.4 MB.
+Total: 4.460500 ms (FindLiveObjects: 0.271600 ms CreateObjectMapping: 0.133600 ms MarkObjects: 3.858800 ms  DeleteObjects: 0.195200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59592.708589 seconds.
+  path: Assets/Models/DAE format/astronautA.dae
+  artifactKey: Guid(552883b78c242bc49a7a46676a129016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DAE format/astronautA.dae using Guid(552883b78c242bc49a7a46676a129016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec84dd409dbeb4dc372036487ba0c19f') in 0.276232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/DAE format/chimney_detailed.dae
+  artifactKey: Guid(296b55c8fe06f6f41a5fa1ce5760c845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DAE format/chimney_detailed.dae using Guid(296b55c8fe06f6f41a5fa1ce5760c845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c04762d9956bbd890698e6a0efd000') in 0.037237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/DAE format/machine_generator.dae
+  artifactKey: Guid(3c0109925e225d44dadbbf0f61fa7277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DAE format/machine_generator.dae using Guid(3c0109925e225d44dadbbf0f61fa7277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4092dd45ce937ffc6eeec51b9bb674') in 0.071321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/DAE format/craft_speederC.dae
+  artifactKey: Guid(aa34142a380ec524f9dfd9ecda18ab2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DAE format/craft_speederC.dae using Guid(aa34142a380ec524f9dfd9ecda18ab2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ada6f3234d05856b1569c4f541d076a') in 0.034478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/DAE format/pipe_ring.dae
+  artifactKey: Guid(225af6e447eb6bc40a5d34f93aabf036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DAE format/pipe_ring.dae using Guid(225af6e447eb6bc40a5d34f93aabf036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6559f5b17de5dbab457a46f678ce4d') in 0.034281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/DAE format/corridor_roof.dae
+  artifactKey: Guid(ea386c8cd5a2a00428e428693e609e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DAE format/corridor_roof.dae using Guid(ea386c8cd5a2a00428e428693e609e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb104d158402204954491dcaf8629a1') in 0.024466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/DAE format/corridor_split.dae
+  artifactKey: Guid(b44401efd9a0cde46be7d185eab8f5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DAE format/corridor_split.dae using Guid(b44401efd9a0cde46be7d185eab8f5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cb9956af11dd4c00f5ecbaa2eb9d13') in 0.036102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/DAE format/pipe_rampLarge.dae
+  artifactKey: Guid(9516a6064bfe8d444b250192c8cfd990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DAE format/pipe_rampLarge.dae using Guid(9516a6064bfe8d444b250192c8cfd990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4114925febc67bf36360164e1e3a81bf') in 0.028697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/DAE format/machine_barrel.dae
+  artifactKey: Guid(bf7fe366192131a40a86f7d88979b67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DAE format/machine_barrel.dae using Guid(bf7fe366192131a40a86f7d88979b67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f75e88fc601b4963fedf53549c2e918') in 0.046845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/DAE format/pipe_cornerRoundLarge.dae
+  artifactKey: Guid(b9f62cbc815c69f40857d7219ec9134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DAE format/pipe_cornerRoundLarge.dae using Guid(b9f62cbc815c69f40857d7219ec9134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149b94a0fb6d60ef34f7f9decc6729f2') in 0.025687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 12.805737 seconds.
+  path: Assets/Models/FBX format/pipe_ringSupport.fbx
+  artifactKey: Guid(2087ea633a3d37c47a7537e2e161b96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FBX format/pipe_ringSupport.fbx using Guid(2087ea633a3d37c47a7537e2e161b96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1a6fdc2ce0adace5ef7ae23fb3653c') in 0.029826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/FBX format/platform_large.fbx
+  artifactKey: Guid(4b18cd49e1ebf1b43970ccce8bc3ea16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FBX format/platform_large.fbx using Guid(4b18cd49e1ebf1b43970ccce8bc3ea16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee7d9103182c0fb5e7c3f0cf9618333') in 0.028667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/FBX format/rail_end.fbx
+  artifactKey: Guid(65cba410463c9034ab769a1599faa946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FBX format/rail_end.fbx using Guid(65cba410463c9034ab769a1599faa946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43a65c0f587bf6ae1fdb5dfe920dc12') in 0.024772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/FBX format/rock_crystalsLargeA.fbx
+  artifactKey: Guid(bf49a43a33fa5884b82b662fccecc250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FBX format/rock_crystalsLargeA.fbx using Guid(bf49a43a33fa5884b82b662fccecc250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e98a50fdb6d83a38ba68a51102a6049') in 0.030572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/FBX format/stairs.fbx
+  artifactKey: Guid(ee99fd22d9916e8418d0fac21aeb8404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FBX format/stairs.fbx using Guid(ee99fd22d9916e8418d0fac21aeb8404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c285fecd4eba1bca6b03374596b00d') in 0.029455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/FBX format/stairs_short.fbx
+  artifactKey: Guid(b3f0df02a72a81e4893b9f83c3fa9d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FBX format/stairs_short.fbx using Guid(b3f0df02a72a81e4893b9f83c3fa9d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714c3e3ac06227ce4889779256fb2e36') in 0.028934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/FBX format/rock_largeA.fbx
+  artifactKey: Guid(14fb6b59114bb8a4da3d32b7c0ec956f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FBX format/rock_largeA.fbx using Guid(14fb6b59114bb8a4da3d32b7c0ec956f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588957ad94da3c6b216c5d31fc96383f') in 0.028275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/FBX format/rocket_finsA.fbx
+  artifactKey: Guid(609fb98dae8985b4ea2dd762991840d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FBX format/rocket_finsA.fbx using Guid(609fb98dae8985b4ea2dd762991840d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0839cb2e9836ba2501521d5ebc8c4da1') in 0.029833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.111346 seconds.
+  path: Assets/Models/FBX format/structure_closed.fbx
+  artifactKey: Guid(aae10ecd4d7fcd5448b612335a16da28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FBX format/structure_closed.fbx using Guid(aae10ecd4d7fcd5448b612335a16da28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71eb6ce4844e642975547f2821d84b14') in 0.031038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/FBX format/terrain_roadCorner.fbx
+  artifactKey: Guid(cca5de56ba9568b4cad017f97f84ddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FBX format/terrain_roadCorner.fbx using Guid(cca5de56ba9568b4cad017f97f84ddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f595c68749a1a2a5cc5adacccd0440a') in 0.023978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/FBX format/terrain_rampLarge.fbx
+  artifactKey: Guid(3e2f6194be54ce84ca36391d7d17a5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FBX format/terrain_rampLarge.fbx using Guid(3e2f6194be54ce84ca36391d7d17a5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9d6a164a84d0cdfd9a54a79fda72e2') in 0.022784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.246788 seconds.
+  path: Assets/Models/FBX format/terrain_sideCorner.fbx
+  artifactKey: Guid(08668e86d91533e459222db54b39c8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FBX format/terrain_sideCorner.fbx using Guid(08668e86d91533e459222db54b39c8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda0729014e6d7d55d1b54ed0665b757') in 0.025423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/FBX format/weapon_rifle.fbx
+  artifactKey: Guid(1f7e8d2fbcb9c6440967ae85e0efc67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FBX format/weapon_rifle.fbx using Guid(1f7e8d2fbcb9c6440967ae85e0efc67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd866b3a146763b44969906b45f909945') in 0.032494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1332.205647 seconds.
+  path: Assets/Isometric/barrels_rail_SW.png
+  artifactKey: Guid(bbf5a1c2997a54c42931dbbdb2ad2605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/barrels_rail_SW.png using Guid(bbf5a1c2997a54c42931dbbdb2ad2605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615f826bf0d47b84f786b8534cb5edd1') in 0.032017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009230 seconds.
+  path: Assets/Isometric/bones_NE.png
+  artifactKey: Guid(7087aa930ad53274fb82d0ee71f6a326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/bones_NE.png using Guid(7087aa930ad53274fb82d0ee71f6a326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add4ba5176ba70932d7d152a923b57ab') in 0.020520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001656 seconds.
+  path: Assets/Isometric/barrels_SE.png
+  artifactKey: Guid(2edc99efb954e684b8e17b348e14b57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/barrels_SE.png using Guid(2edc99efb954e684b8e17b348e14b57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791d3732c451c7a108b8e0287b67f3fb') in 0.023935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric/chimney_NE.png
+  artifactKey: Guid(1a5ae35c6963957488df4c242c4e66be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/chimney_NE.png using Guid(1a5ae35c6963957488df4c242c4e66be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269266bf26f67cea15b8a920c183dd74') in 0.021608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric/corridor_open_NE.png
+  artifactKey: Guid(3e9c05c3e5d0ef34fb47cda047fb7c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_open_NE.png using Guid(3e9c05c3e5d0ef34fb47cda047fb7c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886a88dac67fedf1bb2a228572e8cfef') in 0.019598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Isometric/corridor_cross_NW.png
+  artifactKey: Guid(2766f5f7149d2064891390fc1ebb7966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_cross_NW.png using Guid(2766f5f7149d2064891390fc1ebb7966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95214106c1bd397fe6d8e9a5849c434a') in 0.022503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric/corridor_end_SW.png
+  artifactKey: Guid(c2cdac491249847459ef5f8f98f8a9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_end_SW.png using Guid(c2cdac491249847459ef5f8f98f8a9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2361bbebc084a73a5cb9517c809a969e') in 0.021642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Isometric/corridor_wallCorner_SW.png
+  artifactKey: Guid(a3a15fe850ce3164cb8ffc0b3984246e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_wallCorner_SW.png using Guid(a3a15fe850ce3164cb8ffc0b3984246e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfc44a4ddeeefa561f18395e4647b96') in 0.020627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Isometric/corridor_detailed_SE.png
+  artifactKey: Guid(30006f5b60db5f54697bad06872f0f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_detailed_SE.png using Guid(30006f5b60db5f54697bad06872f0f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ede0957372faa972ed781213687036') in 0.021044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Isometric/corridor_cornerRoundWindow_SW.png
+  artifactKey: Guid(f4116261716b2f242a64c63f259c6d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_cornerRoundWindow_SW.png using Guid(f4116261716b2f242a64c63f259c6d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898711961bd77694aa344283312c1b48') in 0.021765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Isometric/corridor_roof_NE.png
+  artifactKey: Guid(2eb50a4a01327c34e8715c957064cd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_roof_NE.png using Guid(2eb50a4a01327c34e8715c957064cd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c998e29f7f31fe8c615651a5ed1ea3e0') in 0.019812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Isometric/chimney_SW.png
+  artifactKey: Guid(959d002534306f04ea681540bd242c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/chimney_SW.png using Guid(959d002534306f04ea681540bd242c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebaf70614fb7e57ba74d83451836feb6') in 0.019865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric/corridor_wall_SE.png
+  artifactKey: Guid(ec5f138643a92e947b0a95fdf3e82d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_wall_SE.png using Guid(ec5f138643a92e947b0a95fdf3e82d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a71cc8f2634ad4fc19cd6b0cd97deb') in 0.022516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric/corridor_wallCorner_SE.png
+  artifactKey: Guid(c3b0a5a915af3d34ab245c2528803f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_wallCorner_SE.png using Guid(c3b0a5a915af3d34ab245c2528803f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4f4a36c428c3b809b10cb7c97d3e8e') in 0.018729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric/corridor_windowClosed_SE.png
+  artifactKey: Guid(5a94ffaa2e430be44bd9fa4d470c091f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_windowClosed_SE.png using Guid(5a94ffaa2e430be44bd9fa4d470c091f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2255c4046051cbaae0ce41501d75d4d6') in 0.019299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric/corridor_end_NE.png
+  artifactKey: Guid(d34c40dc836565149a5ad318804d1a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_end_NE.png using Guid(d34c40dc836565149a5ad318804d1a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff29574b180582e4e84bf39d258a41a7') in 0.020345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric/corridor_end_SE.png
+  artifactKey: Guid(ce89b1ec7eef986429047974635e97a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_end_SE.png using Guid(ce89b1ec7eef986429047974635e97a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95480ea3afdb11ba2a68b417e02ad00d') in 0.021253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric/corridor_window_NW.png
+  artifactKey: Guid(5f8364111973612449c57213f20ec732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_window_NW.png using Guid(5f8364111973612449c57213f20ec732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e8b7c6e163cf7327b7b06cf913065c') in 0.021367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Isometric/craft_cargoB_NE.png
+  artifactKey: Guid(2ea129182c3b56844a37657642ff94d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_cargoB_NE.png using Guid(2ea129182c3b56844a37657642ff94d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9568de8460a255def9c1b122127952bf') in 0.021109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Isometric/craft_miner_NE.png
+  artifactKey: Guid(a5c1bf7d0523cca4b991576a6ef44138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_miner_NE.png using Guid(a5c1bf7d0523cca4b991576a6ef44138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f073b03d414c02be10a290b03e31f90a') in 0.020952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric/chimney_detailed_NE.png
+  artifactKey: Guid(d8e90baee8bbc21439716f294fdbf2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/chimney_detailed_NE.png using Guid(d8e90baee8bbc21439716f294fdbf2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015500f08bd4db0b9a75de776845b486') in 0.020352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric/barrels_SW.png
+  artifactKey: Guid(63e3d4f26b18d834983f554ca8c960b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/barrels_SW.png using Guid(63e3d4f26b18d834983f554ca8c960b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af2bd12c74d75f0b0c2105038235c3c') in 0.020116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric/corridor_corner_NE.png
+  artifactKey: Guid(732832ab36783194d84df26db3780933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_corner_NE.png using Guid(732832ab36783194d84df26db3780933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e324364374069aeed1b6cc3b5581ba') in 0.023077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric/corridor_detailed_NE.png
+  artifactKey: Guid(a84206df6cfd2ea44b5afe5b8a8551d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_detailed_NE.png using Guid(a84206df6cfd2ea44b5afe5b8a8551d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facfe5f6966af55bf2526dfd7a9c8b06') in 0.021509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric/corridor_NE.png
+  artifactKey: Guid(4a72c19206e894b4eb53f91b54b69b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_NE.png using Guid(4a72c19206e894b4eb53f91b54b69b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b18c08325448cb58a3ed50a172e635') in 0.019390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Isometric/corridor_wall_SW.png
+  artifactKey: Guid(4f66b11d402606b4cab60528bfe2556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_wall_SW.png using Guid(4f66b11d402606b4cab60528bfe2556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f3ea4d11b76ee4be4114df7e897e9f') in 0.018639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric/corridor_wallCorner_NE.png
+  artifactKey: Guid(37d17dc150cc89148b93f07f86262521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_wallCorner_NE.png using Guid(37d17dc150cc89148b93f07f86262521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93368705e5756152a71d96794d0706f') in 0.018647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric/corridor_windowClosed_NW.png
+  artifactKey: Guid(c64f05a2520bf8b4696e36e0b1ec2876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_windowClosed_NW.png using Guid(c64f05a2520bf8b4696e36e0b1ec2876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf67b54b48aa91e0f0926b8d0e9adc7') in 0.020274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Isometric/corridor_cross_NE.png
+  artifactKey: Guid(efe664ae3d4a6d34ea10f88918c34f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_cross_NE.png using Guid(efe664ae3d4a6d34ea10f88918c34f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6723c75ea40fd116e0d18bdb4ad32730') in 0.023719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Isometric/corridor_detailed_NW.png
+  artifactKey: Guid(87e66a97e606add4d8cd528195aeecf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_detailed_NW.png using Guid(87e66a97e606add4d8cd528195aeecf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c820275c2471e29f4468377ba64ba5') in 0.018969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Isometric/corridor_cornerRoundWindow_SE.png
+  artifactKey: Guid(e2113e045d5e55744bce50b7981858d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_cornerRoundWindow_SE.png using Guid(e2113e045d5e55744bce50b7981858d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7dabcd7ddf506a493ddee547cea652') in 0.018757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Isometric/corridor_roof_NW.png
+  artifactKey: Guid(62facf0c54e119e46a36adebfab54aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_roof_NW.png using Guid(62facf0c54e119e46a36adebfab54aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af009438367c539c4d0cd7ad8f917a1b') in 0.025616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric/chimney_NW.png
+  artifactKey: Guid(cb88f33c8bfcc9043810a0e48a15b5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/chimney_NW.png using Guid(cb88f33c8bfcc9043810a0e48a15b5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5586f13d78987bc262a281455e5a52f8') in 0.019109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Isometric/corridor_wall_NW.png
+  artifactKey: Guid(dba7e6f37b87ec24d95547e302821831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_wall_NW.png using Guid(dba7e6f37b87ec24d95547e302821831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05418c54d451f79ba19d9a802629e0af') in 0.018974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric/corridor_split_NE.png
+  artifactKey: Guid(bac1546dfebaff741b88daaabdec9a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_split_NE.png using Guid(bac1546dfebaff741b88daaabdec9a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7a49d215c496a5ced6a6c0d1371744') in 0.020154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric/craft_cargoA_NW.png
+  artifactKey: Guid(1da43a34e6da41d41ac7ebacf11e5f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_cargoA_NW.png using Guid(1da43a34e6da41d41ac7ebacf11e5f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39605b9a0e93ed27bda5773f4fd5f48a') in 0.019802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric/bones_SW.png
+  artifactKey: Guid(cc2cc703f7e69c4418793c5229990c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/bones_SW.png using Guid(cc2cc703f7e69c4418793c5229990c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93884e45202a392a7050d2e8ad1ac28d') in 0.018162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Isometric/corridor_cornerRoundWindow_NE.png
+  artifactKey: Guid(2f715b779b272964f886307e0c9f229e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_cornerRoundWindow_NE.png using Guid(2f715b779b272964f886307e0c9f229e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e759457e6231bffaf92ea4685bc7a56c') in 0.018769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Isometric/corridor_open_NW.png
+  artifactKey: Guid(84c25114731d22e4997a8c29a3ad8d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_open_NW.png using Guid(84c25114731d22e4997a8c29a3ad8d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4f415947d78b8d7f4dd89473257c43') in 0.018891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric/corridor_SE.png
+  artifactKey: Guid(54288c66a07570c4b9b6bca159dbe768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/corridor_SE.png using Guid(54288c66a07570c4b9b6bca159dbe768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae13f822af1f57cbdc7d82ee122e414') in 0.018453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Isometric/craft_cargoA_SE.png
+  artifactKey: Guid(4b7628eab0c40cb46bd01864fd833b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_cargoA_SE.png using Guid(4b7628eab0c40cb46bd01864fd833b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2ed766d2d4bcc1a44d37111158d6b2') in 0.019484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.042966 seconds.
+  path: Assets/Isometric/craft_miner_SE.png
+  artifactKey: Guid(79bb9303b10537442ad183fac41c6de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_miner_SE.png using Guid(79bb9303b10537442ad183fac41c6de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cec91fb5d28aa998ea9e294b2c22972') in 0.019706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric/craft_miner_SW.png
+  artifactKey: Guid(4ed7d9b8704d32b4f9f7377577949329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_miner_SW.png using Guid(4ed7d9b8704d32b4f9f7377577949329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd52f81184f38adede666ae91870ec46') in 0.018940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Isometric/craft_speederC_NE.png
+  artifactKey: Guid(1ed1686040db1124692370f4ab71e644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_speederC_NE.png using Guid(1ed1686040db1124692370f4ab71e644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c94aaf3224aea088fea993b0e5dac30') in 0.018894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric/craft_speederD_NE.png
+  artifactKey: Guid(b6ee38bac563669499423c286d0407f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_speederD_NE.png using Guid(b6ee38bac563669499423c286d0407f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d9929d4015467e9908bcb2f35587d9') in 0.019152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric/craft_speederC_SE.png
+  artifactKey: Guid(620b4954a84667a42826cf3e3a7249c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_speederC_SE.png using Guid(620b4954a84667a42826cf3e3a7249c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c930e76a1f91ba8a0544420fb1831c95') in 0.019039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric/craterLarge_SW.png
+  artifactKey: Guid(4cf4405281657ab4bb5b1d2fd13873ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craterLarge_SW.png using Guid(4cf4405281657ab4bb5b1d2fd13873ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3507030f212629dc86d479e41021e16d') in 0.018204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric/craft_speederA_NE.png
+  artifactKey: Guid(e3be1c9b6ff88224988aa9f2a6c437e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_speederA_NE.png using Guid(e3be1c9b6ff88224988aa9f2a6c437e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32be43191141802e0354f0a77138427') in 0.020845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric/desk_chairArms_SE.png
+  artifactKey: Guid(5e854640be8c2ad4bb7e83b3fa753517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/desk_chairArms_SE.png using Guid(5e854640be8c2ad4bb7e83b3fa753517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f71a2312c18b274b240ba2599bf84f2') in 0.018530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric/desk_chairStool_NE.png
+  artifactKey: Guid(97637b303533b744a96fee1ae4be6af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/desk_chairStool_NE.png using Guid(97637b303533b744a96fee1ae4be6af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce6eab61e19d4527a42a53d804de45a') in 0.019045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric/desk_chairStool_SW.png
+  artifactKey: Guid(c8f086ce784cd7c40b4dbecffdac04db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/desk_chairStool_SW.png using Guid(c8f086ce784cd7c40b4dbecffdac04db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dca01bf4b5b23eacb49099b1fc2b79d') in 0.018583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Isometric/craft_speederA_NW.png
+  artifactKey: Guid(c404864bcc4db4742919e2f0b2b56232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_speederA_NW.png using Guid(c404864bcc4db4742919e2f0b2b56232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a81c7294fdc51cbd2ac52acd3fa01b') in 0.018720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Isometric/desk_chairArms_NE.png
+  artifactKey: Guid(7596ea1d90a59484aa2b5ce706206f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/desk_chairArms_NE.png using Guid(7596ea1d90a59484aa2b5ce706206f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e74b3484273ca4594b5c0c8d547bff') in 0.018613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric/craft_speederB_NE.png
+  artifactKey: Guid(47e2e7a056970d642832c5d94d2d003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_speederB_NE.png using Guid(47e2e7a056970d642832c5d94d2d003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2e69a8102b288dc035baddb7512d4c') in 0.023647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Isometric/craft_speederC_SW.png
+  artifactKey: Guid(6352e1492b4f3cc498912938e674f820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_speederC_SW.png using Guid(6352e1492b4f3cc498912938e674f820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250b4e4a774fc66b78b5a2c9dc6e7427') in 0.018576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Isometric/craft_speederD_SW.png
+  artifactKey: Guid(fc191b843272c8a4099cdf98a6a0b153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_speederD_SW.png using Guid(fc191b843272c8a4099cdf98a6a0b153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e8d7b480ec443d91d8f0e412f01bde') in 0.019888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric/craft_racer_SW.png
+  artifactKey: Guid(fe52e0950f7743b4dab96d8203e359ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_racer_SW.png using Guid(fe52e0950f7743b4dab96d8203e359ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384a33a03869b398d334ce5b31089ac2') in 0.022119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Isometric/desk_computer_NE.png
+  artifactKey: Guid(2923db7a84fce6c42a9c529b54987c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/desk_computer_NE.png using Guid(2923db7a84fce6c42a9c529b54987c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0723d9cecf2eec81f0e92c6ca15bcb87') in 0.020705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Isometric/desk_computer_NW.png
+  artifactKey: Guid(b38d0c060b7545643aa0382d461eb50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/desk_computer_NW.png using Guid(b38d0c060b7545643aa0382d461eb50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca270e2e709fea8f3703123010bc92c') in 0.021941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric/desk_chair_NE.png
+  artifactKey: Guid(27d7980c00572a3488f4875b247ff7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/desk_chair_NE.png using Guid(27d7980c00572a3488f4875b247ff7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9307ae45a2f188c5f8565fd5303de786') in 0.018335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric/desk_chair_SW.png
+  artifactKey: Guid(a6b81482a2ffd2741ac2086e7472bf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/desk_chair_SW.png using Guid(a6b81482a2ffd2741ac2086e7472bf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e4d6e37ebe9fdb0756bc71b6374606') in 0.018383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric/craft_speederB_NW.png
+  artifactKey: Guid(8cb0ecd3cf5a88340a1ad57fdfcf86cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_speederB_NW.png using Guid(8cb0ecd3cf5a88340a1ad57fdfcf86cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6628dd3962df80188b4ceee130df9427') in 0.018244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric/crater_SE.png
+  artifactKey: Guid(c5313ea4627baae4f84e07d15e580302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/crater_SE.png using Guid(c5313ea4627baae4f84e07d15e580302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f052e6340e0523ff79aa941c88224309') in 0.018722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Isometric/craft_speederA_SE.png
+  artifactKey: Guid(b45f9ad9065e97e409d363c3bac18cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_speederA_SE.png using Guid(b45f9ad9065e97e409d363c3bac18cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5718cb1d8b57ebf28e6ebe34f1fb1e') in 0.019315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Isometric/craft_racer_NW.png
+  artifactKey: Guid(dc27be79fc4feb64b8c8475efffa95cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric/craft_racer_NW.png using Guid(dc27be79fc4feb64b8c8475efffa95cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582932edd5d78c53a23e5d01a012f4ce') in 0.019897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.561599 seconds.
+  path: Assets/Models/OBJ format/astronautA.obj
+  artifactKey: Guid(96fc67504c90f854393d49eb024a8bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJ format/astronautA.obj using Guid(96fc67504c90f854393d49eb024a8bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b33d30af76f0d1cef5d19ed7af9aa4') in 0.107431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/OBJ format/chimney.obj
+  artifactKey: Guid(e73a67f1463fc0a4686f4355487e4d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJ format/chimney.obj using Guid(e73a67f1463fc0a4686f4355487e4d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e45a9ba342437871c628fd4e5b5d4a') in 0.048487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/OBJ format/corridor_corner.obj
+  artifactKey: Guid(7a92cb2b02e70c849a6bcfecf050d228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJ format/corridor_corner.obj using Guid(7a92cb2b02e70c849a6bcfecf050d228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08812412b48b326770bb194a1baa7e7b') in 0.038947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/OBJ format/desk_computerCorner.obj
+  artifactKey: Guid(eac2a17f648f4474f9ec4f6af3fe2b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJ format/desk_computerCorner.obj using Guid(eac2a17f648f4474f9ec4f6af3fe2b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cd3875ffc8e1c0ba0896dee6ef862d') in 0.049246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/OBJ format/craft_speederD.obj
+  artifactKey: Guid(b9245be6062b29041a1d1735de07ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJ format/craft_speederD.obj using Guid(b9245be6062b29041a1d1735de07ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa94ce12c444272309891001f269fddb') in 0.062339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/OBJ format/craft_cargoB.obj
+  artifactKey: Guid(4b45e25ab3e5b5147a90dbfd8a9c64d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJ format/craft_cargoB.obj using Guid(4b45e25ab3e5b5147a90dbfd8a9c64d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed402a6981d10a07cea82046e26a5ff') in 0.045616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/OBJ format/corridor_open.obj
+  artifactKey: Guid(9935a68645ef97f468e34eddd51ea8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJ format/corridor_open.obj using Guid(9935a68645ef97f468e34eddd51ea8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f710dc3455077b8280ed0e72c5aaa7') in 0.031230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/OBJ format/corridor_wall.obj
+  artifactKey: Guid(8ab51c379e797d04ebb292a509ac1707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJ format/corridor_wall.obj using Guid(8ab51c379e797d04ebb292a509ac1707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b367c5727a174d40cd11c88061750570') in 0.036402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

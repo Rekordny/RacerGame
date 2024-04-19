@@ -1,0 +1,512 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32467 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker22
+-projectPath
+C:/Users/chenyufe/Documents/Rekordny_Github/RacerGame
+-logFile
+Logs/AssetImportWorker22.log
+-srvPort
+54047
+Successfully changed project path to: C:/Users/chenyufe/Documents/Rekordny_Github/RacerGame
+C:/Users/chenyufe/Documents/Rekordny_Github/RacerGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [41224] Host "[IP] 142.55.42.89 [Port] 0 [Flags] 2 [Guid] 1662976771 [EditorId] 1662976771 [Version] 1048832 [Id] WindowsEditor(7,oa-s142-23) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [41224] Host "[IP] 142.55.42.89 [Port] 0 [Flags] 2 [Guid] 1662976771 [EditorId] 1662976771 [Version] 1048832 [Id] WindowsEditor(7,oa-s142-23) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 9.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/chenyufe/Documents/Rekordny_Github/RacerGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   NVIDIA
+    VRAM:     11120 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.024661 seconds.
+- Loaded All Assemblies, in  0.665 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1218 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.769 seconds
+Domain Reload Profiling: 2430ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (265ms)
+			TypeCache.Refresh (263ms)
+				TypeCache.ScanAssembly (240ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1769ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1677ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1428ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.750 seconds
+Refreshing native plugins compatible for Editor in 3.42 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.797 seconds
+Domain Reload Profiling: 1544ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (366ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (112ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (798ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (577ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (421ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 5.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1574 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (130.0 KB). Loaded Objects now: 2046.
+Memory consumption went from 92.1 MB to 91.9 MB.
+Total: 4.244300 ms (FindLiveObjects: 0.204800 ms CreateObjectMapping: 0.066600 ms MarkObjects: 3.778500 ms  DeleteObjects: 0.193400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 92932.608425 seconds.
+  path: Assets/Side/alien.png
+  artifactKey: Guid(038deee51c6143f44af1903d064ba8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/alien.png using Guid(038deee51c6143f44af1903d064ba8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f974217d55f13f61e32c72a32f70015') in 0.082348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006176 seconds.
+  path: Assets/Side/bones.png
+  artifactKey: Guid(7bb2a2e019104974b83966761202586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/bones.png using Guid(7bb2a2e019104974b83966761202586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6e52e61cdb581d2f31fb40040f3c3f') in 0.022105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Side/corridor_open.png
+  artifactKey: Guid(6d05f0a0ce0401d4893bfa09912c81f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/corridor_open.png using Guid(6d05f0a0ce0401d4893bfa09912c81f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b931b83938a7b3306d9e981479cd619') in 0.021067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Side/monorail_trackSupport.png
+  artifactKey: Guid(f67f9cbbbfdc79a47852e4ba5b5a8e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/monorail_trackSupport.png using Guid(f67f9cbbbfdc79a47852e4ba5b5a8e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5525173fa74f6a9fce0b516011ebbf1f') in 0.019684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Side/monorail_trackStraight.png
+  artifactKey: Guid(88b2ada7b21a1bb42a5f21cb12a7f7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/monorail_trackStraight.png using Guid(88b2ada7b21a1bb42a5f21cb12a7f7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4476d645d40ca887485124d8b2cf55d') in 0.020677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Side/desk_computerScreen.png
+  artifactKey: Guid(1fb79876d18285848918643711f0869f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/desk_computerScreen.png using Guid(1fb79876d18285848918643711f0869f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7322b814280167d614acb1a83b6084d') in 0.018845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Side/monorail_trainCargo.png
+  artifactKey: Guid(98451675b867b7949af7d2d2a58025e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/monorail_trainCargo.png using Guid(98451675b867b7949af7d2d2a58025e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b338eb4947dd209fccd81bde0b33cb') in 0.019248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Side/machine_generator.png
+  artifactKey: Guid(17e2d834cc3685849ade0bf9a4967034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/machine_generator.png using Guid(17e2d834cc3685849ade0bf9a4967034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb567a2b99d09d0b6d2a1471ba9bb15c') in 0.018145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Side/chimney.png
+  artifactKey: Guid(06d2e7c5894557b4b90ff6c23a03d113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/chimney.png using Guid(06d2e7c5894557b4b90ff6c23a03d113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac64efb1e746c45fcc31cf50fde1108') in 0.018808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Side/machine_barrel.png
+  artifactKey: Guid(5d167552167cd0a44af9b15742b0e53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/machine_barrel.png using Guid(5d167552167cd0a44af9b15742b0e53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04152b7ad569ab4614d194a70bbd3826') in 0.018626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Side/pipe_cornerRoundLarge.png
+  artifactKey: Guid(ad0802c66c8be8e45a8f26af9aa57322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/pipe_cornerRoundLarge.png using Guid(ad0802c66c8be8e45a8f26af9aa57322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d1bf2009435ce970f0354e4f48a6b2') in 0.021343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Side/crater.png
+  artifactKey: Guid(2d2be800b0bcdf14881a1e942b408788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/crater.png using Guid(2d2be800b0bcdf14881a1e942b408788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8808dd55b269bcfbeb20dde02beca0') in 0.018728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Side/craft_miner.png
+  artifactKey: Guid(28c41c2aac92c4c4499c8f395624fb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/craft_miner.png using Guid(28c41c2aac92c4c4499c8f395624fb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c27a87c1f5328dc023bbc56c8109935') in 0.019478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Side/monorail_trainEnd.png
+  artifactKey: Guid(e82217580b3be8a4aadb6c56fd963bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/monorail_trainEnd.png using Guid(e82217580b3be8a4aadb6c56fd963bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed8dc4b4e470b89c9d8490b43792545') in 0.021811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Side/meteor.png
+  artifactKey: Guid(89ef0259e3cfa9146a70637887bdfdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/meteor.png using Guid(89ef0259e3cfa9146a70637887bdfdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8f5f8dbc55218ba4e35430992b25f0') in 0.018884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Side/corridor_split.png
+  artifactKey: Guid(18c15ad53032d81459b217ca90d474a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/corridor_split.png using Guid(18c15ad53032d81459b217ca90d474a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad323b61cf9520d8aca782411549984d') in 0.019165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Side/corridor_roof.png
+  artifactKey: Guid(3269b1026064a044791e8cd5daa1f137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/corridor_roof.png using Guid(3269b1026064a044791e8cd5daa1f137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd6d8367600f348ac94664e8a8985c6') in 0.019058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Side/craft_speederC.png
+  artifactKey: Guid(511ee6ad9cfb20b4fb1080737cc1dacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/craft_speederC.png using Guid(511ee6ad9cfb20b4fb1080737cc1dacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af81eb404c34aea49c41e89694e0d268') in 0.020098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Side/monorail_trainFront.png
+  artifactKey: Guid(12092d5af10509a46a20d0f605cbaa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/monorail_trainFront.png using Guid(12092d5af10509a46a20d0f605cbaa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e0c38a2fe43f326c7531ff5af35217') in 0.018184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Side/barrel.png
+  artifactKey: Guid(7d88c15ca0d53ae4bbba3b0c15cab43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/barrel.png using Guid(7d88c15ca0d53ae4bbba3b0c15cab43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5c58740aeb5d793b61b0d5b1b07ed8') in 0.018731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Side/craft_racer.png
+  artifactKey: Guid(13df4b574c4df5346956bf5bec9a6598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/craft_racer.png using Guid(13df4b574c4df5346956bf5bec9a6598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1672cfa2ba5d565173783d7f5550742') in 0.018268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Side/desk_computer.png
+  artifactKey: Guid(9092c891b345fd6489d8f91943db0c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/desk_computer.png using Guid(9092c891b345fd6489d8f91943db0c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75193fca38da8d7415232c0e5e3b413') in 0.018759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Side/desk_chairStool.png
+  artifactKey: Guid(35a5df645dda3cc4193c0c1510264c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/desk_chairStool.png using Guid(35a5df645dda3cc4193c0c1510264c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6933c28e73378dd185e7dda69ab147') in 0.019405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Side/monorail_trackCornerSmall.png
+  artifactKey: Guid(044b83eb4c4bbfe4e9e4ee67cc28715b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/monorail_trackCornerSmall.png using Guid(044b83eb4c4bbfe4e9e4ee67cc28715b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893f4ff0f309c7e3da99d828bb40db62') in 0.018932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Side/pipe_cross.png
+  artifactKey: Guid(eba4df7063943cf42bf4cd76ff1ef066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/pipe_cross.png using Guid(eba4df7063943cf42bf4cd76ff1ef066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293263c1b4053ff124d6c67690023ab8') in 0.018413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Side/monorail_trackSlope.png
+  artifactKey: Guid(bc55aaf6c6b28bf4d9c68acb61d36035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/monorail_trackSlope.png using Guid(bc55aaf6c6b28bf4d9c68acb61d36035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d04b187ebd24cdd03fe41dfc904d89c') in 0.018802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Side/corridor.png
+  artifactKey: Guid(18083ca23d5b389419a733673c4ed704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/corridor.png using Guid(18083ca23d5b389419a733673c4ed704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7cf0516672da7551cfddb15a101114') in 0.018553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Side/corridor_windowClosed.png
+  artifactKey: Guid(e4802d937f92479419346651b685e02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/corridor_windowClosed.png using Guid(e4802d937f92479419346651b685e02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ae3bb26f4acb309577bc7f997bf3b3') in 0.020690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Side/pipe_ring.png
+  artifactKey: Guid(d99aef4cff7d119439debed0209cd0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/pipe_ring.png using Guid(d99aef4cff7d119439debed0209cd0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829fb5cffd5a8c1879a8a549a4f3831a') in 0.018301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Side/hangar_roundB.png
+  artifactKey: Guid(220f4f688e998f1408a0461f5835c3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/hangar_roundB.png using Guid(220f4f688e998f1408a0461f5835c3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67445fffcaec165b3e5cbef0f69715cd') in 0.021207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Side/hangar_roundGlass.png
+  artifactKey: Guid(ff7d5517c3c35504191d8090cf9e5c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/hangar_roundGlass.png using Guid(ff7d5517c3c35504191d8090cf9e5c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad5506c1644b8e4a47b975e73fe6a61') in 0.019558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Side/pipe_corner.png
+  artifactKey: Guid(77177091a94f23c45ba5d9e7599c8d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/pipe_corner.png using Guid(77177091a94f23c45ba5d9e7599c8d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc21e81c335053c95b4c1428fcf58c72') in 0.019196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Side/desk_chair.png
+  artifactKey: Guid(65857829db93ec0419c307ccf60d3c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/desk_chair.png using Guid(65857829db93ec0419c307ccf60d3c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca98f405072622f795e0195452681d83') in 0.020806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Side/desk_computerCorner.png
+  artifactKey: Guid(e0d781abb4e625e419d4a6d53d8a8780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/desk_computerCorner.png using Guid(e0d781abb4e625e419d4a6d53d8a8780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60f39b9c347d9c79dcacecc65903b44') in 0.018280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Side/craft_cargoA.png
+  artifactKey: Guid(8fb6c3bcb420b324c85890275064ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/craft_cargoA.png using Guid(8fb6c3bcb420b324c85890275064ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f37427d47f7f865e0d2dc50f2bb6d3') in 0.018300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Side/corridor_window.png
+  artifactKey: Guid(36032dda19fd47b4c92af73556ca94f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/corridor_window.png using Guid(36032dda19fd47b4c92af73556ca94f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd772f88a698cecc50bc363f66b591819') in 0.018013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Side/corridor_corner.png
+  artifactKey: Guid(1ae3bf7bedf616c439b40ca00be1e2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/corridor_corner.png using Guid(1ae3bf7bedf616c439b40ca00be1e2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b869f902c5de3ff65c5b7635e2e34e31') in 0.019155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Side/meteor_detailed.png
+  artifactKey: Guid(60f2fd8752d980e48aae8eb5376c8ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/meteor_detailed.png using Guid(60f2fd8752d980e48aae8eb5376c8ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260ea19e862b47aefdfa6faffb49989a') in 0.020930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Side/hangar_smallB.png
+  artifactKey: Guid(8017044cade67e847a4d4241cca7ff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/hangar_smallB.png using Guid(8017044cade67e847a4d4241cca7ff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6cffd81ad5f29dafae263a9948daed') in 0.018778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Side/hangar_roundA.png
+  artifactKey: Guid(1006f8d28c6b3804db250961abd162a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Side/hangar_roundA.png using Guid(1006f8d28c6b3804db250961abd162a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13a2916f141032bf973e81c9a80daf9') in 0.019160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

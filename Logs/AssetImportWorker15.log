@@ -1,0 +1,464 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32467 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/Users/chenyufe/Documents/Rekordny_Github/RacerGame
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+54047
+Successfully changed project path to: C:/Users/chenyufe/Documents/Rekordny_Github/RacerGame
+C:/Users/chenyufe/Documents/Rekordny_Github/RacerGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36612] Host "[IP] 142.55.42.89 [Port] 0 [Flags] 2 [Guid] 1314960315 [EditorId] 1314960315 [Version] 1048832 [Id] WindowsEditor(7,oa-s142-23) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [36612] Host "[IP] 142.55.42.89 [Port] 0 [Flags] 2 [Guid] 1314960315 [EditorId] 1314960315 [Version] 1048832 [Id] WindowsEditor(7,oa-s142-23) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 8.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/chenyufe/Documents/Rekordny_Github/RacerGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   NVIDIA
+    VRAM:     11120 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.024323 seconds.
+- Loaded All Assemblies, in  0.638 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1187 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.730 seconds
+Domain Reload Profiling: 2365ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (255ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1731ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1640ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1398ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.858 seconds
+Refreshing native plugins compatible for Editor in 5.36 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.925 seconds
+Domain Reload Profiling: 1778ms
+	BeginReloadAssembly (255ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (444ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (127ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (926ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (640ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (461ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 4.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1574 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (130.0 KB). Loaded Objects now: 2046.
+Memory consumption went from 92.1 MB to 91.9 MB.
+Total: 5.891500 ms (FindLiveObjects: 0.208400 ms CreateObjectMapping: 0.062400 ms MarkObjects: 5.354600 ms  DeleteObjects: 0.264600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83191.579279 seconds.
+  path: Assets/Assets/Models/Kenney/Nature Kit/stone_smallFlatC.fbx
+  artifactKey: Guid(48fc16f579f8f2a45b95b814cd0c252a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Kenney/Nature Kit/stone_smallFlatC.fbx using Guid(48fc16f579f8f2a45b95b814cd0c252a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656592b9a8b72dcdfc7904f390b24698') in 0.184123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Models/Kenney/Nature Kit/stump_round.fbx
+  artifactKey: Guid(bce1c9638cf90064aae4291610f9d463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Kenney/Nature Kit/stump_round.fbx using Guid(bce1c9638cf90064aae4291610f9d463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6141ed1190dc6a8012487ed67ba4506') in 0.025527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/Models/Kenney/Nature Kit/stone_tallC.fbx
+  artifactKey: Guid(579158edd4ff7c74e9d5a2d59f7a1fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Kenney/Nature Kit/stone_tallC.fbx using Guid(579158edd4ff7c74e9d5a2d59f7a1fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95c797e4902123a1e4beccebd1b410c') in 0.024447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.631539 seconds.
+  path: Assets/Assets/Models/Kenney/Nature Kit/tree_cone_fall.fbx
+  artifactKey: Guid(8255eea5cda6f1748828ad2b5d396348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Kenney/Nature Kit/tree_cone_fall.fbx using Guid(8255eea5cda6f1748828ad2b5d396348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abd570a3d6c0c867d638dc9a3a8445b') in 0.023951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Models/Kenney/Nature Kit/tree_fat_fall.fbx
+  artifactKey: Guid(74fd44cfbe883ee49932dcdb98502b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Kenney/Nature Kit/tree_fat_fall.fbx using Guid(74fd44cfbe883ee49932dcdb98502b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24754d22ba131fa4962e13a31af88a55') in 0.024947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Models/Kenney/Nature Kit/tree_oak_dark.fbx
+  artifactKey: Guid(0570c8cb87b62dd4db2c60ecd2c236f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Kenney/Nature Kit/tree_oak_dark.fbx using Guid(0570c8cb87b62dd4db2c60ecd2c236f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc7988d7d28bbe3634b02df58daac1f') in 0.023463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Models/Kenney/Nature Kit/tree_pineDefaultB.fbx
+  artifactKey: Guid(2ab3e636d663b3b4e9d8963862a40a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Kenney/Nature Kit/tree_pineDefaultB.fbx using Guid(2ab3e636d663b3b4e9d8963862a40a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486b7cfcf8f418b9dbcf5ccf571556fb') in 0.027052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Models/Kenney/Nature Kit/tree_pineRoundF.fbx
+  artifactKey: Guid(61ec5b6429329674990ef7bdcdb3719b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Kenney/Nature Kit/tree_pineRoundF.fbx using Guid(61ec5b6429329674990ef7bdcdb3719b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515d6daae1a10bf9c10f36c0a3078dbd') in 0.024618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Models/Kenney/Nature Kit/tree_pineRoundB.fbx
+  artifactKey: Guid(9dae2a8dbd468c34bb48b60d5ac54749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Kenney/Nature Kit/tree_pineRoundB.fbx using Guid(9dae2a8dbd468c34bb48b60d5ac54749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742aefcf8394e32e5ae2531cc4b72123') in 0.028886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.655007 seconds.
+  path: Assets/Assets/Models/Kenney/Nature Kit/tree_pineSmallD.fbx
+  artifactKey: Guid(31ea70199fb9f514697bfc94f83c299c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Kenney/Nature Kit/tree_pineSmallD.fbx using Guid(31ea70199fb9f514697bfc94f83c299c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ada1ebcdd1ee8d75c1562e26def0cc0') in 0.026340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Models/Kenney/Nature Kit/tree_pineTallD.fbx
+  artifactKey: Guid(3408896147c78c04b8e1ab392a4896c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Kenney/Nature Kit/tree_pineTallD.fbx using Guid(3408896147c78c04b8e1ab392a4896c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac881cd37816ecc5e18cca210b58ab4') in 0.027729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/Models/Kenney/Nature Kit/tree_plateau.fbx
+  artifactKey: Guid(272f4adf0912cbd479e08734915e0c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Kenney/Nature Kit/tree_plateau.fbx using Guid(272f4adf0912cbd479e08734915e0c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a9f6e1d65d73f228a3edb2ea0fdbe2') in 0.025772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.019231 seconds.
+  path: Assets/Assets/Models/Kenney/Nature Kit/tree_small_dark.fbx
+  artifactKey: Guid(7e0d98bec783df348b566fa02319cb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Kenney/Nature Kit/tree_small_dark.fbx using Guid(7e0d98bec783df348b566fa02319cb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ea79336a3fefb38f782bc4acf7868a') in 0.026393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Models/Kenney/Nature Kit/tree_thin_dark.fbx
+  artifactKey: Guid(9939d8d318f91df429091136df56cfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Kenney/Nature Kit/tree_thin_dark.fbx using Guid(9939d8d318f91df429091136df56cfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17c2d934a54291ec4b202fb0e1d7e44') in 0.025162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5845.160116 seconds.
+  path: Assets/Assets/Materials
+  artifactKey: Guid(495e65aab3c08e84e8b7a7914b6127d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Materials using Guid(495e65aab3c08e84e8b7a7914b6127d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec09ee01e7957b09461fd3e8eb5dfa73') in 0.002700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1188.752730 seconds.
+  path: Assets/Unvik_3D/AshMoor/FBX
+  artifactKey: Guid(4de10433aab73944e89339d4a8791110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/FBX using Guid(4de10433aab73944e89339d4a8791110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01aef23d42891c7e24d633b12d423768') in 0.001158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.067202 seconds.
+  path: Assets/Unvik_3D/AshMoor/FBX/Grass_01.fbx
+  artifactKey: Guid(485e62bbd3417c64daa7083c88a6f2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/FBX/Grass_01.fbx using Guid(485e62bbd3417c64daa7083c88a6f2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2972d5cc625e7eece375bf521cd2c08a') in 0.029045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.075151 seconds.
+  path: Assets/Unvik_3D/AshMoor/FBX/Isle_01.fbx
+  artifactKey: Guid(be1f2ac837436934e976aae78b7c36f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/FBX/Isle_01.fbx using Guid(be1f2ac837436934e976aae78b7c36f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768f3e96bf5f60b5e34e15abab464127') in 0.019227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Unvik_3D/AshMoor/FBX/roots_02.fbx
+  artifactKey: Guid(a609af68e9150fe44aa3a3713417f827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/FBX/roots_02.fbx using Guid(a609af68e9150fe44aa3a3713417f827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637a7d6f03bcd7d55fc9aa69347d973f') in 0.017509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.003506 seconds.
+  path: Assets/Unvik_3D/AshMoor/FBX/Small_Isle.fbx
+  artifactKey: Guid(5eb373c79a3a86b4cb7731db65d0d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/FBX/Small_Isle.fbx using Guid(5eb373c79a3a86b4cb7731db65d0d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a679681dcfca344e671899ce644dc1d7') in 0.017414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004233 seconds.
+  path: Assets/Unvik_3D/AshMoor/FBX/Trunk_02.fbx
+  artifactKey: Guid(c43c055d77c369542bad18920816082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/FBX/Trunk_02.fbx using Guid(c43c055d77c369542bad18920816082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6059ce5294761c014a8337415e214ca9') in 0.017122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unvik_3D/AshMoor/FBX/Trunk_04.fbx
+  artifactKey: Guid(3c80367ccde76684b850a80151f70953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/FBX/Trunk_04.fbx using Guid(3c80367ccde76684b850a80151f70953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3764e0eb7f9c4f9127cbd37715c02067') in 0.017817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unvik_3D/AshMoor/FBX/Tree_04.fbx
+  artifactKey: Guid(0cf6fbfbf8f5878408bbb1e59e6eb640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/FBX/Tree_04.fbx using Guid(0cf6fbfbf8f5878408bbb1e59e6eb640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe736f8f21e08e4aedbc9b17809f4a3') in 0.018318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unvik_3D/AshMoor/FBX/Trunk_01.fbx
+  artifactKey: Guid(5abf28f06798fcb4b9d03db958ba5902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/FBX/Trunk_01.fbx using Guid(5abf28f06798fcb4b9d03db958ba5902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b838719ae74866491ac5ec0c670705d') in 0.017373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Unvik_3D/AshMoor/FBX/Mushrooms.fbx
+  artifactKey: Guid(d1483e5761aa23d4aa7bfd706e5a38b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/FBX/Mushrooms.fbx using Guid(d1483e5761aa23d4aa7bfd706e5a38b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae938478f1ae3c4607fa1a0f120ea08') in 0.016454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.642253 seconds.
+  path: Assets/Unvik_3D/AshMoor/Prefabs
+  artifactKey: Guid(21728a99a778a8d44af5bd7070f3220f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/Prefabs using Guid(21728a99a778a8d44af5bd7070f3220f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a944aa512a27ed354c8dced0e59ddee') in 0.000724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050311 seconds.
+  path: Assets/Unvik_3D/AshMoor/Prefabs/AshMoor_Diorama.prefab
+  artifactKey: Guid(5d53c092fd094a04e996c70c552b0400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/Prefabs/AshMoor_Diorama.prefab using Guid(5d53c092fd094a04e996c70c552b0400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bd5d8b8bb67115674d62f165c4ecbe') in 0.027455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 192
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Unvik_3D/AshMoor/Prefabs/Ashmoor_Rock_01.prefab
+  artifactKey: Guid(06d07ce28138a2148ba20e0055e73acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/Prefabs/Ashmoor_Rock_01.prefab using Guid(06d07ce28138a2148ba20e0055e73acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7874ed00782a36543c00f185aa2799bf') in 0.012376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unvik_3D/AshMoor/Prefabs/Ashmoor_Isle_01.prefab
+  artifactKey: Guid(ddbf1c622182bcf41963313ec227a6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/Prefabs/Ashmoor_Isle_01.prefab using Guid(ddbf1c622182bcf41963313ec227a6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46afa647657618de1a33aef4fb6eb559') in 0.011346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unvik_3D/AshMoor/Prefabs/Ashmoor_roots_01.prefab
+  artifactKey: Guid(4d348e640bd121b4d873587b6c568d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/Prefabs/Ashmoor_roots_01.prefab using Guid(4d348e640bd121b4d873587b6c568d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4464fa80fd1b797ffe2e54f124f5b83') in 0.012655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unvik_3D/AshMoor/Prefabs/Ashmoor_Rock_02.prefab
+  artifactKey: Guid(95a8a70dfed48e145827005d92e5bd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/Prefabs/Ashmoor_Rock_02.prefab using Guid(95a8a70dfed48e145827005d92e5bd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04261d0f54bb7eb6cd96bdd801eff887') in 0.011918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Unvik_3D/AshMoor/Prefabs/Ashmoor_Isle_02.prefab
+  artifactKey: Guid(5508ed84f9f504a4d84e71fd2502af33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/Prefabs/Ashmoor_Isle_02.prefab using Guid(5508ed84f9f504a4d84e71fd2502af33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819d6d95d97383f268fc55ab48c3e8d1') in 0.011304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Unvik_3D/AshMoor/Prefabs/Ashmoor_Tree_04.prefab
+  artifactKey: Guid(8e89d750aed0ef84a81aefab889cbf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/Prefabs/Ashmoor_Tree_04.prefab using Guid(8e89d750aed0ef84a81aefab889cbf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1baf0361647e5a4b34f80991d7106fe9') in 0.011659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unvik_3D/AshMoor/Prefabs/Ashmoor_Trunk_01.prefab
+  artifactKey: Guid(b667798eee128ea46a9adffb9d2cd17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unvik_3D/AshMoor/Prefabs/Ashmoor_Trunk_01.prefab using Guid(b667798eee128ea46a9adffb9d2cd17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988de7bd9cd040bf42afa909bbe35de6') in 0.011854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
